@@ -1,6 +1,6 @@
 /* COLOUR REFERENCES
 	Primary:	#01B5AF
-	Second:
+	Second:		#4A4A4A
 	Third:
 
 */
@@ -64,4 +64,43 @@ body {
 	border-bottom: none;
 	font-size: 40px;
 	padding: 5px 5px;
+}
+
+/** NAVBAR **/
+.navbar {
+	height: 75px;
+	border-radius: 0%;
+	background-color: #4A4A4A;
+	border: none;
+	-webkit-box-shadow: 0px 6px 32px -5px rgba(0,0,0,0.55);
+	-moz-box-shadow: 0px 6px 32px -5px rgba(0,0,0,0.55);
+	box-shadow: 0px 6px 32px -5px rgba(0,0,0,0.55);
+}
+
+.navbar-inverse {
+	height: 75px;
+}
+
+.navbar-inverse .navbar-nav>li {
+	height: 75px;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+	font-size: 22px;
+	font-weight: 500;
+	text-transform: capitalize;
+	position: relative;
+	display: inline-block;
+	margin: 15px 25px;
+	outline: none;
+	color: #fff;
+	text-decoration: none;
+	text-transform: uppercase;
+	text-shadow: 0 0 1px rgba(255,255,255,0.3);
+}
+
+.navbar .navbar-brand img {
+	height: 50px;
+	width: auto;
+	margin: 5px 0px;
 }
