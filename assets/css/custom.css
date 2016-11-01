@@ -262,6 +262,7 @@ p {
 	background-color: inherit;
 	text-align: center;
 	color: white;
+	min-height: 700px;
 }
 
 #service .content {
@@ -295,6 +296,22 @@ p {
 	border-radius: 100%;
 }
 
+#service .single-service {
+	background-color: white;
+	width: 300px;
+	height: 200px;
+	border-radius: 100%;
+	color: #01B5AF;
+	display: flex;
+	justify-content: center; /* align horizontal */
+	align-items: center; /* align vertical */
+}
+
+#service h5 {
+	font-style: italic;
+	font-weight: 500;
+	margin-top: 35px;
+}
 
 /** ANIMATION **/
 
