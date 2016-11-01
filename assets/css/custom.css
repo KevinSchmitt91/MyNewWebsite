@@ -22,6 +22,26 @@ body {
 	height: 100%;
 }
 
+h3 {
+	font-size: 28px;
+	margin: 10px 5px;
+}
+
+p {
+	font-size: 16px;
+}
+
+.content-wrapper {
+	min-height: 400px;
+	background-color: white;
+	display: table;
+}
+
+.content {
+	display: table-cell;
+	vertical-align: middle;
+}
+
 /** GLOBALS **/
 .btn-primary {
 	border-radius: 0%;
@@ -41,6 +61,32 @@ body {
 	background-color: #4A4A4A;
 	transition: background-color .3s;
 	-webkit-transition: background-color .3s;
+}
+
+.divider-primary {
+	background-color: #01B5AF;
+	height: 5px;
+	margin: 10px 5px;
+}
+
+.link {
+	font-weight: 700;
+	font-style: normal;
+	color: #01B5AF;
+	transition: color .3s;
+	-webkit-transition: color .3s;
+}
+
+.link:hover {
+	text-decoration: none;
+	color: #4A4A4A;
+	transition: color .3s;
+	-webkit-transition: color .3s;
+}
+
+.link:focus {
+	text-decoration: none;
+	color: #4A4A4A;
 }
 
 
@@ -185,6 +231,12 @@ body {
 	transition: color .3s;
 	-webkit-transition: color .3s;
 }
+
+/** Page-Intro **/
+#page-intro h3 {
+	margin: 25px 5px;
+}
+
 
 /** ANIMATION **/
 
