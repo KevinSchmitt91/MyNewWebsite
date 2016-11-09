@@ -491,6 +491,15 @@ footer .important-links a:hover {
 	transition: color 0.3s ease;
 }
 
+/** Process-Intro **/
+#process-intro h4 {
+	color: grey;
+}
+
+#process-intro .divider-primary {
+	margin-left: 0;
+}
+
 /** ANIMATION **/
 
 @-webkit-keyframes bounce {
