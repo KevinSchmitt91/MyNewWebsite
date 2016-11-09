@@ -47,6 +47,7 @@ p {
 	display: table;
 	width: 100%;
 	background-color: transparent;
+	margin: 25px 0;
 }
 
 .content {
@@ -239,7 +240,7 @@ p {
 
 /** HERO **/
 #hero {
-	height: 80%;
+	height: 100%;
 	position:inherit;
 	background: linear-gradient(
 										 rgba(255,255,255, .6),
@@ -324,10 +325,15 @@ p {
 	height: 200px;
 	width: 200px;
 	color: #01B5AF;
-	display: table-cell;
-	vertical-align: middle;
+	display: table;
 	float: none;
 	font-weight: 700;
+	margin: 25px auto;
+}
+
+#service .service-card-content {
+	display: table-cell;
+	vertical-align: middle;
 }
 
 #service .service-images {
@@ -368,6 +374,7 @@ p {
 	background-position: center top;
 	background-attachment: fixed;
 	overflow: visible;
+	padding: 25px 0;
 }
 
 #page-info .content-wrapper {
@@ -416,7 +423,7 @@ p {
 	width: 200px;
 	border-radius: 100%;
 	background-color: white;
-	margin: 0 auto;
+	margin: 25px auto;
 	display: table;
 }
 
@@ -556,6 +563,32 @@ footer .important-links a:hover {
 
 	#page-header .page-header-img {
 		float: none;
+	}
+
+	/** HERO **/
+	#hero .hero-content h1 {
+		font-size: 46px;
+		margin: 25px 15px;
+	}
+
+	#hero .hero-content h2{
+		font-size: 30px;
+	}
+
+	/** page-intro **/
+	#page-intro .content {
+		display: block;
+		margin: 25px 0;
+	}
+
+	/** page-info **/
+	#page-info .content-wrapper {
+		width: 60%;
+	}
+
+	/** idea **/
+	#idea .content-wrapper {
+		width: 70%;
 	}
 
 	.hide-mobile {
