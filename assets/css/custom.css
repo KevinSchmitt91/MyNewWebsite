@@ -56,6 +56,10 @@ p {
 }
 
 /** GLOBALS **/
+.full-height {
+	min-height: 100%;
+}
+
 .secondary-font {
 		color: #4A4A4A!important;
 }
@@ -544,6 +548,54 @@ footer .important-links a:hover {
 	height: auto;
 }
 
+/** CONTACT **/
+#contact {
+	margin: 35px 0;
+}
+
+#contact .contact-desc {
+		margin: 25px 0;
+		font-size: 14px;
+		font-weight: 600;
+		color: #01B5AF;
+}
+
+#contact .form-group {
+	margin: 25px 0;
+}
+
+#contact .form-control {
+	border: none;
+	border-bottom: 2px solid #01B5AF;
+	border-radius: 0;
+	margin-bottom: 30px;
+}
+
+#contact .contact-form .contact-header {
+	font-size: 18px;
+}
+
+#contact .btn-contact {
+	border-radius: 0;
+	border: 2px solid #01B5AF;
+	color: white;
+	background-color: #;
+	font-size: 16px;
+	font-weight: 600;
+	transition: color 0.3s, background-color .3s, border .3s;
+	width: 200px;
+}
+
+#contact .btn-contact:hover {
+	border-radius: 0;
+	border: 2px solid #4A4A4A;
+	color: white;
+	background-color: #4A4A4A;
+	font-size: 16px;
+	font-weight: 600;
+	transition: color 0.3s, background-color .3s, border .3s;
+}
+
 /** ANIMATION **/
 
 @-webkit-keyframes bounce {
@@ -652,6 +704,11 @@ footer .important-links a:hover {
 	/** idea **/
 	#idea .content-wrapper {
 		width: 70%;
+	}
+
+	/** contact **/
+	#contact .contact-desc {
+		margin-bottom: 0px;
 	}
 
 	.hide-mobile {
