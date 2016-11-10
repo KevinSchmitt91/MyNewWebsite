@@ -56,6 +56,10 @@ p {
 }
 
 /** GLOBALS **/
+.secondary-font {
+		color: #4A4A4A!important;
+}
+
 .btn-primary {
 	border-radius: 0%;
 	color: white;
@@ -500,6 +504,10 @@ footer .important-links a:hover {
 	margin-left: 0;
 }
 
+.process-part {
+	color: white;
+}
+
 /** ANIMATION **/
 
 @-webkit-keyframes bounce {
@@ -554,6 +562,16 @@ footer .important-links a:hover {
 /* == MEDIA QUERIES === */
 /* == SMARTPHONES == */
 @media screen and ( max-width: 767px ) {
+	/** NAVBAR **/
+	.navbar .navbar-brand {
+		position: relative;
+		left: 25px;
+	}
+
+	#bsNav {
+		transition: opacity 2s;
+	}
+
 	/** PAGE-HEADER **/
 	#page-header {
 		min-height: 75px;

@@ -1,8 +1,8 @@
 /*
-	Name:		KS-0.0.1.js
-	Version:	0.0.1
+	Name:		main.js
+	Version:	0.0.3
 	Author:		Kevin Schmitt
-	Datum:		16.02.2016
+	Datum:		16.11.2016
 */
 
 /* ===================================================== */
@@ -73,8 +73,8 @@ function navbar_opacity(window_top, div_top) {
 
 // blendet den back-zo-zop button aus und ein
 function backToTopFadeIn() {
-	var window_top = $(window).scrollTop();
-    var div_top = $('#hero').offset().top;
+		var window_top = $(window).scrollTop();
+    var div_top = $('#top-anchor').offset().top;
 
     console.log(window_top);
     console.log(div_top);
@@ -114,7 +114,8 @@ function openNav() {
 	navbar.style.height = "100%";
 	console.log(bsNavbar.classList.contains("navbar-fixed-top"));
 	if (bsNavbar.classList.contains("navbar-fixed-top")) {
-		bsNavbar.style.display= "none";
+		bsNavbar.style.opacity = "0";
+		bsNavbar.style.transition = "opacity .5s";
 	}
 }
 
@@ -124,9 +125,9 @@ function closeNav() {
 	navbar.style.height = "0%";
 	setTimeout(function displayBSnavbar() {
 		console.log(bsNavbar.classList.contains("navbar-fixed-top"));
-		if (bsNavbar.classList.contains("navbar-fixed-top")) {
-			bsNavbar.style.display= "block";
-		}
+			bsNavbar.style.opacity= "1";
+			bsNavbar.style.transition = "opacity .5s";
+		
 	},500);
 
 }
