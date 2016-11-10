@@ -496,7 +496,7 @@ footer .important-links a:hover {
 }
 
 /** Process-Intro **/
-#process-intro h4 {
+#process-intro h5 {
 	color: grey;
 }
 
@@ -506,6 +506,42 @@ footer .important-links a:hover {
 
 .process-part {
 	color: white;
+}
+
+/** PORTFOLIO **/
+#portfolio-entry {
+	margin: 25px 0;
+}
+#portfolio-entry .project-header-primary {
+	margin-left: 0px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+#portfolio-entry .divider-primary {
+	margin-left: 0;
+}
+
+#portfolio-entry .project-header-second {
+	font-size: 80%;
+}
+
+#portfolio-entry .project-category {
+	margin: 25px 0;
+}
+
+#portfolio-entry .project-category-header {
+	margin-bottom: 25px;
+}
+
+#portfolio-entry .project-desc {
+	font-weight: 500;
+	color: #4A4A4A;
+}
+
+#portfolio-entry .project-img {
+	width: 100%;
+	height: auto;
 }
 
 /** ANIMATION **/
