@@ -596,6 +596,48 @@ footer .important-links a:hover {
 	transition: color 0.3s, background-color .3s, border .3s;
 }
 
+/** IMPRINT **/
+.imprint-content .imprint-header {
+	font-size: 26px;
+	color: #01B5AF;
+	margin: 25px 0;
+}
+
+.imprint-content .imprint-section {
+	margin: 40px 0;
+}
+
+.imprint-section .imprint-section-section {
+	margin-bottom: 25px;
+}
+
+.imprint-content .imprint-section-header {
+	font-size: 22px;
+	margin-bottom: 10px;
+	margin-left: 0;
+}
+
+.imprint-section .imprint-section-line {
+	font-size: 18px;
+	font-weight: 400;
+	margin-left: 0;
+}
+
+.imprint-section .imprint-link {
+	color: #01B5AF;
+	font-size: 16px;
+}
+
+.imprint-section .imprint-link:hover {
+	text-decoration: none;
+	font-weight: 600;
+}
+
+.imprint-section .fa-twitter {
+	color:#4099FF;
+	font-size: 40px;
+}
+
 /** ANIMATION **/
 
 @-webkit-keyframes bounce {
