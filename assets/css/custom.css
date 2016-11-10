@@ -638,6 +638,10 @@ footer .important-links a:hover {
 	font-size: 40px;
 }
 
+.imprint-section .imprint-desc {
+	font-size: 14px;
+}
+
 /** ANIMATION **/
 
 @-webkit-keyframes bounce {
